@@ -4,8 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 
 
-fdescribe('Incrementador Component', () => {
-
+describe('Incrementador Component', () => {
   let component: IncrementadorComponent;
   let fixture: ComponentFixture<IncrementadorComponent>;
 
@@ -17,7 +16,6 @@ fdescribe('Incrementador Component', () => {
 
     fixture = TestBed.createComponent(IncrementadorComponent);
     component = fixture.componentInstance;
-
   });
 
   it('Debe crear el Incrementador Component', () => {

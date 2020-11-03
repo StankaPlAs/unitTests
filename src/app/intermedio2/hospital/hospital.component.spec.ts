@@ -19,6 +19,10 @@ describe('HospitalComponent', () => {
   });
 
   beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [ HospitalComponent ]
+    });
+
     fixture = TestBed.createComponent(HospitalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

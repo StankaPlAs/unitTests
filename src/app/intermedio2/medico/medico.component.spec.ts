@@ -3,8 +3,6 @@ import { MedicoComponent } from './medico.component';
 import { MedicoService } from './medico.service';
 import { HttpClientModule } from '@angular/common/http';
 
-
-
 describe('Medico Component Pruebas de integración', () => {
   let component: MedicoComponent;
   let fixture: ComponentFixture<MedicoComponent>;
@@ -20,9 +18,7 @@ describe('Medico Component Pruebas de integración', () => {
   });
 
   it('Debe crearse el componente', () => {
-
     expect(component).toBeTruthy();
-
   });
 
   it('Debe retornar un saludo con el nombre', () => {
